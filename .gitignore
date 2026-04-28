@@ -1,0 +1,66 @@
+# Visual Studio / .NET / NuGet
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+obj/
+build/
+TestResults/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+.nuget/packages/
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[sS]harper
+*.DotSettings.user
+
+# Entity Framework / DB files
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# OS files
+Thumbs.db
+desktop.ini
+*.DS_Store
+
+# Logs, temporary files
+*.log
+*.cache
+*.tmp
+
+# publish / output
+PublishProfiles/
+*.Publish.xml
+*.deploy
+
+# Certificates / keys
+*.pfx
+*.snk
+
+# Large file systems / object stores (if used)
+.git/lfs/
+
+# Rider caches
+.idea/
+out/
+
+# Optional: sensitive local config (uncomment if present)
+# appsettings.Development.json
